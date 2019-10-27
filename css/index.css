@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Palatino;
+}
+
+nav.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+span.nav-tab {
+    flex-grow: 1;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.nav-tab-link {
+    padding: 0.5em;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: darkgray;
+    text-decoration: none;
+    transition: background-color 200ms linear;
+}
+
+a.nav-tab-link:hover {
+    background-color: lightgray;
+}
+
+a.nav-tab-link:active {
+    background-color: #dfdfdf;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.hdr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5em 0em 0em;
+    background-image: linear-gradient(darkgray 0%, whitesmoke 25%);
+}
+
+img.hdr-img {
+    margin-right: 5em;
+}
+
+span.hdr-desc {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 3em;
+}
+
+h1.hdr-name {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+p.hdr-text {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 0;
+}
+
+div.odd {
+    padding: 3em;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.even {
+    padding: 3em;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.odd-hdr {
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 0 0 1em 0;
+}
+
+h1.even-hdr {
+    color: darkgray;
+    font-size: 40px;
+    margin: 0 0 1em 0;
+}
+
+div.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+span.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    padding: 2em;
+    width: 16em;
+    margin: 0 3em;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px 1px darkgray;
+    transition: box-shadow 200ms linear;
+}
+
+span.card:hover, span.card:focus {
+    box-shadow: 2px 2px 6px 3px darkgray;
+}
+
+span.card-nonclickable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    padding: 2em;
+    width: 16em;
+    margin: 0 3em;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px 1px darkgray;
+}
+
+h3.card-hdr {
+    margin-bottom: 0;
+    color: black;
+}
+
+h5.card-subhdr {
+    margin: 0.5em 0;
+    color: gray;
+}
+
+ul.card-pts {
+    align-self: flex-start;
+    color: gray;
+    margin-bottom: 0;
+}
+
+li.card-pt {
+    margin-bottom: 1em;
+}

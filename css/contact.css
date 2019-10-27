@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Palatino;
+}
+
+nav.nav {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+span.nav-tab {
+    flex-grow: 1;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.nav-tab-link {
+    padding: 0.5em;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: darkgray;
+    text-decoration: none;
+    transition: background-color 200ms linear;
+}
+
+a.nav-tab-link:hover {
+    background-color: lightgray;
+}
+
+a.nav-tab-link:active {
+    background-color: #dfdfdf;
+}
+
+div.main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(darkgray 0%, whitesmoke 30%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a.link {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 1em;
+    border-radius: 1.5em;
+    background-color: whitesmoke;
+    transition: background-color 200ms linear;
+}
+
+a.link:hover, a.link:focus {
+    background-color: white;
+}
+
+img.logo {
+    display: block;
+    width: 100%;
+}
+
+div.div {
+    height: 13em;
+    width: 2px;
+    border-radius: 1px;
+    background-color: gray;
+}
+
+table {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+td {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
