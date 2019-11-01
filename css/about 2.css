@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Palatino;
+}
+
+nav.nav {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+span.nav-tab {
+  flex-grow: 1;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.nav-tab-link {
+  padding: 0.5em;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: darkgray;
+  text-decoration: none;
+  transition: background-color 200ms linear;
+}
+
+a.nav-tab-link:hover {
+  background-color: lightgray;
+}
+
+a.nav-tab-link:active {
+  background-color: #dfdfdf;
+}
+
+div.abt {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(darkgray 0%, whitesmoke 20%);
+  padding: 1em;
+}
+
+div.abt-img {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+img.img {
+  padding: 1px;
+  border: 2px solid black;
+}
+
+p.cptn {
+  font-size: 15px;
+}
+
+span.abt-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span.dc {
+  color: firebrick;
+  float: left;
+  font-family: Georgia;
+  font-size: 82px;
+  line-height: 60px;
+  padding: 7px 5px 0 0;
+  transition: color 150ms linear;
+}
+
+p.intro {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+a.link {
+  color: firebrick;
+  text-decoration: none;
+  transition: color 150ms linear;
+}
+
+a.link:hover,
+a.link:hover > span.dc {
+  color: crimson;
+}
+
+a.link:visited,
+a.link:active,
+a.link:active > span.dc,
+a.link:visited > span.dc {
+  color: maroon;
+}
+
+h3.quote-hdr {
+  margin-top: 5em;
+}
+
+span.try {
+  color: darkgray;
+  font-size: 12px;
+}
+
+ul.quotes {
+  list-style-type: none;
+}
+
+li {
+  margin: 0 0 3em;
+}
