@@ -3,30 +3,37 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: whitesmoke;
 }
 
-.nonideal {
+.body {
   display: flex;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.nonideal-header {
+.body-graphic {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-header {
   margin-block-start: 1em;
   margin-block-end: 0.5em;
 }
 
-.nonideal-text {
+.body-text {
   margin: 0;
 }
